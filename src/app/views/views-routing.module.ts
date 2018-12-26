@@ -2,13 +2,15 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { ViewsComponent } from './views.component';
 import { HomeComponent } from './home/home.component';
+import { LogInComponent } from './log-in/log-in.component';
 
 const routes: Routes = [
     {
         path: '',
         component: ViewsComponent,
         children: [
-            { path: '', component: HomeComponent }
+            { path: '', component: LogInComponent },
+            { path: 'home', component: HomeComponent },
         ]
     }
 ];
@@ -17,4 +19,4 @@ const routes: Routes = [
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class AppRoutingModule { }
+export class ViewsRoutingModule { }
