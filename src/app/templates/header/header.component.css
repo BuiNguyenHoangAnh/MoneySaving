@@ -40,7 +40,7 @@ html,body{
     -webkit-backface-visibility: hidden;
     -webkit-transform: translateZ(0) scale(1.0, 1.0);
     transform: translateZ(0);
-  background:#1B2030 url(https://unsplash.it/1999/999?image=1063) top center no-repeat;
+  /* background:#1B2030 url(https://unsplash.it/1999/999?image=1063) top center no-repeat; */
   background-size:cover;
   background-attachment:fixed;
   animation: grow 60s  linear 10ms infinite;
@@ -50,11 +50,24 @@ html,body{
 .header a{
   color:#eee
 }
+
+.datePicker {
+  display:block;
+  /* width:30px; */
+  /* height:30px; */
+  border-radius:3px;
+  position:absolute;
+  right:70px;
+  /* padding-right: 100px; */
+  top:10px;
+  text-decoration:none
+}
+
 .menu{
   display:block;
   width:30px;
   height:30px;
-  border:2px solid #fff;
+  /* border:2px solid #fff; */
   border-radius:3px;
   position:absolute;
   right:20px;
@@ -62,7 +75,7 @@ html,body{
   text-decoration:none
 }
 .menu:after{
-  content:"";
+  /* content:""; */
   display:block;
   width:20px;
   height:3px;
@@ -72,7 +85,7 @@ html,body{
   top:5px;
   left:0;
   right:0;
-  box-shadow:0 8px, 0 16px
+  /* box-shadow:0 8px, 0 16px */
 }
 .logo{
   border:2px solid #fff;
