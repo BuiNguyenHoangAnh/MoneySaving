@@ -9,7 +9,51 @@
     height: 100px;
 }
 
+.jarPercent .row {
+    text-align: center;
+}
+
 .submenu {
     padding: 10px 0 10px 0;
     text-align: center;
+}
+
+.overview .day {
+    font-size: 35px;
+}
+
+.overview .totalOfDayAdd {
+    text-align: right;
+    color: blue;
+    font-size: 25px;
+}
+
+.overview .totalOfDaySubtract {
+    text-align: right;
+    color: red;
+    font-size: 25px;
+}
+
+.moneyDay {
+    margin-top: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-bottom: 1px solid lightgray;
+    border-top: 1px solid lightgray;
+}
+
+.detail .row .col-md-4 {
+    text-align: right;
+}
+
+.detail .note {
+    color: gray;
+}
+
+.detail .add {
+    color: blue;
+}
+
+.detail .subtract {
+    color: red;
 }
