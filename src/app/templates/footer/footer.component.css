@@ -1,0 +1,12 @@
+button {
+    background-color: #ff4081;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    border: 1px;
+    margin: auto;
+    display: block;
+}
+.container {
+    vertical-align: bottom
+}

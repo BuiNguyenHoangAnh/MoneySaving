@@ -15,7 +15,7 @@ html,body{
   align-content: flex-start;
   height:50vw;
   min-height:400px;
-  max-height:550px;
+  max-height:250px;
   min-width:300px;
   color:#eee;
   background-color: #ff4081;

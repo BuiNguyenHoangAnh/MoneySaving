@@ -3,24 +3,31 @@
     <a href="#" class="logo">User</a>
   </div>
   <div class="sides">
-    <!-- <mat-form-field>
+    <mat-form-field>
       <input matInput [matDatepicker]="picker" placeholder="Choose a date">
       <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
       <mat-datepicker #picker></mat-datepicker>
-    </mat-form-field> -->
+    </mat-form-field>
 
-    <a data-role="collapsible" href="#" class="menu">
-
-    </a>
+    <button mat-icon-button [matMenuTriggerFor]="menu">
+      <mat-icon>more_vert</mat-icon>
+    </button>
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item>
+        <mat-icon>dialpad</mat-icon>
+        <span>Redial</span>
+      </button>
+      <button mat-menu-item disabled>
+        <mat-icon>voicemail</mat-icon>
+        <span>Check voicemail</span>
+      </button>
+      <button mat-menu-item>
+        <mat-icon>notifications_off</mat-icon>
+        <span>Disable alerts</span>
+      </button>
+    </mat-menu>
   </div>
   <div class="info">
-    <h4>
-      <a href="#category">UI DESIGN</a>
-    </h4>
-    <h1>ANIMATED HEADERS ARE THE BEST</h1>
-    <div class="meta">
-      <a  href="https://twitter.com/nodws" target="_b" class="author"></a><br>
-      By <a href="https://twitter.com/nodws" target="_b">James Nodws</a> on May 30, 2017
-    </div>
+    <h1>Darling</h1>
   </div>
 </div>
