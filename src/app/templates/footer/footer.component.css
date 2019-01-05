@@ -8,5 +8,7 @@ button {
     display: block;
 }
 .container {
-    vertical-align: bottom
+    bottom: 5px;
+    width: 100%;
+    position: absolute;
 }
