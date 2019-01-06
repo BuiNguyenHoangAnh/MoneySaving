@@ -36,5 +36,3 @@ export class SettingComponent implements OnInit {
     chart.render();
   }
 }
-
-}

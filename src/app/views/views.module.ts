@@ -7,9 +7,10 @@ import { ViewsRoutingModule } from './views-routing.module';
 import { TemplatesModule } from '../templates/templates.module';
 import { MaterialModule } from '../material-module';
 import { SettingComponent } from './setting/setting.component';
+import { StatisticComponent } from './statistic/statistic.component';
 
 @NgModule({
-  declarations: [ViewsComponent, SettingComponent],
+  declarations: [ViewsComponent, SettingComponent, StatisticComponent],
   imports: [
     CommonModule,
     HomeModule,
