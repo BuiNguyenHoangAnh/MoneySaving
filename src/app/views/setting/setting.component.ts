@@ -16,13 +16,13 @@ export class SettingComponent implements OnInit {
     var chart = new CanvasJS.Chart("chartContainer", {
       animationEnabled: true,
       title: {
-        // text: "Desktop Search Engine Market Share - 2016"
+        text: ""
       },
       data: [{
         type: "pie",
         startAngle: 240,
         yValueFormatString: "##0.00'%'",
-        indexLabel: "{label} {y}",
+        indexLabel: "{label} {y}",  
         dataPoints: [
           {y: 79.45, label: "Education"},
           {y: 7.00, label: "Neccessaties"},
