@@ -6,9 +6,10 @@ button {
     border: 1px;
     margin: auto;
     display: block;
+    position: relative;
 }
 .container {
     bottom: 5px;
     width: 100%;
-    position: absolute;
+    position: fixed;
 }

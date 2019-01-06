@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-// import * as CanvasJS from './../../.;
+// import * as CanvasJS from https://canvasjs.com/assets/script/canvasjs.min.js;
 
 @Component({
   selector: 'app-setting',
